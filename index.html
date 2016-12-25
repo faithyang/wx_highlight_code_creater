@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Author" content="hancel.lin">
+  <meta name="Keywords" content="HTML,Code,代码高亮,公众号,网页">
+  <meta name="Description" content="公众号高亮代码生成器">
+  <title> 公众号高亮代码生成器 </title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/default.min.css">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/highlight.min.js"></script>
+  <script type="text/javascript" src="js/do.js" ></script>
+ </head>
+ <body>
+	 <header><h1 title="Input Your Code">Code Creater</h1></header>
+	 <section>
+		 <label for="lang">Language</label>
+		 <input type="text" id="lang" value="c" />
+		 <label for="width">Min Width</label>
+		 <input type="text" id="width" value="400" />
+	 </section>
+	 <section>
+		<p>
+			<textarea name="code" cols="30" rows="10" id="code">#include&lt;stdio.h&gt;
+
+int main()
+{
+    printf("Hello World!");
+    return 0;
+}</textarea>
+		</p>
+		<p>
+			<input type="submit" value="Code" name="preview" id="preview" />
+		</p>
+		<div id="result">
+<pre style="overflow-x:auto;"><code id="view" style="min-width:400px;font-size: 0.85em;font-family: Consolas, Inconsolata, Courier, monospace;margin: 0px 0.15em;padding: 0px 0.3em;white-space: pre-wrap;background-color: rgb(248, 248, 248);display: inline;white-space: pre;overflow: auto;padding: 0.5em 0.7em;display: block !important;display: block;overflow-x: auto;padding: 0.5em;color: rgb(51, 51, 51);background: rgb(248, 248, 248);text-size-adjust: none;">
+</code></pre>
+			</div>
+			<p>
+			<input type="submit" value="Copy Result" name="copy" id="copy"/>			
+			</p>
+	 </section>
+	 <footer>
+	 <p>Copyright &copy; 2016 <a href="http://sxisa.com" target="_blank">ISA.</a></p>
+	 <div class="tongji"><<script src="https://v1.cnzz.com/z_stat.php?id=5643392&web_id=5643392" language="JavaScript"></script></div>
+	 </footer>
+ </body>
+</html>

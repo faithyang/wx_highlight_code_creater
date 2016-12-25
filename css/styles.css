@@ -1,0 +1,26 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;font-size:100%;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a img{border:none;}
+a{color:#000;text-decoration:none;}
+a:hover{text-decoration:underline;}
+body{color:#000;margin:0 auto;font: .8em "Consolas","Trebuchet MS", "Microsoft Sans Serif", 'Helvetica Neue', Tahoma, Verdana, Arial, "微软雅黑","华文细黑", "黑体", "宋体";}
+input,textarea {font-size:100%; font-family:"Consolas","Trebuchet MS", "Microsoft Sans Serif", 'Helvetica Neue', Tahoma, Verdana, Arial, "微软雅黑","华文细黑", "黑体", "宋体";}
+body,form{text-align:center;}
+h1{font-size:900%;}
+textarea{width: 70%;
+max-width: 700px;
+margin: 15px auto 0;
+padding: 0;
+height: 400px;
+border: 1px solid black;}
+input[type="submit"]{width: 50%;
+max-width: 700px;
+height: 30px;
+background-color: black;
+margin: 0;
+padding: 0;
+color: white;
+border: 1px solid black;}
+p{margin:15px 0;}
+.tongji{display:none;}
+pre{text-align:left;width: 50%;max-width: 700px;margin:auto;}
