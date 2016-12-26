@@ -84,7 +84,7 @@ $(document).ready(function (ev) {
             var width = $("#width").val();
             $("#view").attr("class", lang);
             $("#view").text(code);
-            $("#view").css("min-width", width);
+            $("#view").css("min-width", width + "px");
             hljs.highlightBlock(document.getElementById("view"));
             $(".hljs").each(function(){ 
                 this.style.color = $(this).css("color"); 
